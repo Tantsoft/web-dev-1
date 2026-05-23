@@ -1,0 +1,31 @@
+h2 {
+  color: red;
+  background: green;
+}
+
+#menu {
+  background: black;
+  width: 100%;
+  height: 65px;
+}
+
+.mainmenu {
+  width: 1350px;
+  height: 65px;
+  background: red;
+  margin: 0 auto;
+}
+
+/* banner styles */
+#banner {
+  width: 100%;
+  height: 600px;
+  background: yellow;
+}
+
+.bannercontent {
+  width: 1350px;
+  height: 600px;
+  background: green;
+  margin: 0 auto;
+}
