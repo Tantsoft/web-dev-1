@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* banner */
+
+.banner {
+  background-image: url("../image/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.banner-text p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#demo-button {
+  padding: 18px 40px;
+  background-color: #df3940;
+  color: white;
+  border: none;
+}
