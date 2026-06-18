@@ -37,3 +37,77 @@
   color: white;
   border: none;
 }
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+#video-button {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+#video-button:hover {
+  background-color: #df3940;
+  color: white;
+}
+/* info content start */
+
+.info-content {
+  display: flex;
+  /* gap: 50px; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.info-content-short p {
+  color: #ff3d4f;
+}
+
+.info-content-short h2 {
+  font-size: 70px;
+}
+
+.info-content-long p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.info-btn {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#download-cv {
+  padding: 18px 40px;
+  background-color: #df3940;
+  color: white;
+  border: none;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+
+#design {
+  padding: 18px 40px;
+  background-color: white;
+  color: #df3940;
+  border: 1px solid #df3940;
+  border-radius: 25px;
+}
+
+#download-cv:hover {
+  background-color: white;
+  color: #df3940;
+  border: 1px solid #df3940;
+}
+
+#design:hover {
+  background-color: #df3940;
+  color: white;
+  border: 1px solid #df3940;
+}
