@@ -156,3 +156,43 @@
 }
 
 /* service end  */
+/* about start */
+.about {
+  padding: 100px 0;
+  background-color: #f6f5ff;
+}
+
+.about-content {
+  display: flex;
+  gap: 50px;
+}
+.about-left {
+  background-color: white;
+}
+.about-left img {
+  padding: 10px;
+}
+
+.about-right p {
+  color: red;
+}
+
+.about-right h2 {
+  font-size: 70px;
+}
+
+.progress {
+  display: inline-block;
+}
+#progress-bar {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+#progress-bar span {
+  display: block;
+  height: 20px;
+  background-color: #df3940;
+}
+/* about end */
