@@ -321,3 +321,93 @@
   border-radius: 25px;
   transition: 0.5s;
 }
+
+.gal-card {
+  background-image: url(../image/06.jpg);
+  width: 500px;
+  height: 500px;
+}
+
+.gal-card:hover {
+  background-color: #df3940;
+}
+
+/* education part start  */
+#education {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.education-content {
+  display: flex;
+  gap: 50px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ffe6e4;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.dot {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 4px solid #df3940;
+  left: 10px;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+.date {
+  display: block;
+  color: #df3940;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* team */
+#team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f5ff;
+}
+.team-card {
+  width: 350px;
+  position: relative;
+}
+
+.team-img img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.team-info {
+  position: absolute;
+  width: 280px;
+  margin: auto;
+  background-color: #fff;
+  margin: 0px 14px;
+  bottom: -50px;
+  left: 0;
+  right: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* education part end */
